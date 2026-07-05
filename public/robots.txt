@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.transporttraininguk.co.uk/sitemap.xml
