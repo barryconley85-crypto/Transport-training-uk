@@ -50,7 +50,7 @@ export default function Contact() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '2.5rem' }}>
                 {[
-                  { icon: '📞', label: 'Phone', value: '0300 123 4567', href: 'tel:03001234567', note: 'Monday–Friday, 8am–6pm' },
+                  { icon: '📞', label: 'Phone', value: '0300 111 111', href: 'tel:03001234567', note: 'Monday–Friday, 8am–6pm' },
                   { icon: '✉️', label: 'Email', value: 'info@transporttraininguk.co.uk', href: 'mailto:info@transporttraininguk.co.uk', note: 'We respond within one working day' },
                   { icon: '📍', label: 'Coverage', value: 'Nationwide — England, Scotland & Wales', href: undefined, note: 'On-site delivery at your depot' },
                 ].map(({ icon, label, value, href, note }) => (
