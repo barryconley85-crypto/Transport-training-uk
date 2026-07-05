@@ -9,8 +9,16 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-              <div style={{ width: 40, height: 40, background: 'var(--blue)', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Montserrat, sans-serif', fontWeight: 800, color: 'white', fontSize: '1rem' }}>TT</div>
-              <div>
+  <img
+    src="/assets/3BED2C2A-5C06-4C0F-9D88-46487B48CE16.png"
+    alt="Transport Training UK"
+    style={{
+      height: '50px',
+      width: 'auto',
+      display: 'block'
+    }}
+  />
+</div>
                 <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, color: 'white', fontSize: '1rem' }}>Transport Training UK</div>
               </div>
             </div>
