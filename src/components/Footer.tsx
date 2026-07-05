@@ -20,7 +20,7 @@ export default function Footer() {
       src="/assets/3BED2C2A-5C06-4C0F-9D88-46487B48CE16.png"
       alt="Transport Training UK"
       style={{
-        height: '50px',
+        height: '75px',
         width: 'auto',
         display: 'block'
       }}
