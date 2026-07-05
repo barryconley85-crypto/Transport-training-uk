@@ -39,7 +39,7 @@ export default function Navbar() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '72px' }}>
         {/* Logo */}
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
-          <<img
+          <img
   src="/assets/3BED2C2A-5C06-4C0F-9D88-46487B48CE16.png"
   alt="Transport Training UK"
   style={{
