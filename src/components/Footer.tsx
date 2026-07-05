@@ -40,20 +40,38 @@ export default function Footer() {
     </div>
   </div>
 
-  <p style={{ fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '1.25rem' }}>
-    The UK's specialist provider of passenger transport accessibility, safety and compliance training. Helping operators stay compliant, reduce liability and improve driver confidence.
+  <p
+    style={{
+      fontSize: '0.875rem',
+      lineHeight: 1.7,
+      marginBottom: '1.25rem'
+    }}
+  >
+    The UK's specialist provider of passenger transport accessibility,
+    safety and compliance training. Helping operators stay compliant,
+    reduce liability and improve driver confidence.
   </p>
 
   <div style={{ display: 'flex', gap: '0.5rem' }}>
-            <p style={{ fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '1.25rem' }}>
-              The UK's specialist provider of passenger transport accessibility, safety and compliance training. Helping operators stay compliant, reduce liability and improve driver confidence.
-            </p>
-            <div style={{ display: 'flex', gap: '0.5rem' }}>
-              {['DVSA', 'CPT', 'DfT'].map(badge => (
-                <span key={badge} style={{ background: 'rgba(255,255,255,0.1)', color: 'rgba(255,255,255,0.7)', fontSize: '0.7rem', fontWeight: 700, padding: '0.25rem 0.6rem', borderRadius: 4, fontFamily: 'Montserrat, sans-serif', letterSpacing: '0.05em' }}>{badge} Aligned</span>
-              ))}
-            </div>
-          </div>
+    {['DVSA', 'CPT', 'DfT'].map(badge => (
+      <span
+        key={badge}
+        style={{
+          background: 'rgba(255,255,255,0.1)',
+          color: 'rgba(255,255,255,0.7)',
+          fontSize: '0.7rem',
+          fontWeight: 700,
+          padding: '0.25rem 0.6rem',
+          borderRadius: 4,
+          fontFamily: 'Montserrat, sans-serif',
+          letterSpacing: '0.05em'
+        }}
+      >
+        {badge} Aligned
+      </span>
+    ))}
+  </div>
+</div>
 
           {/* Training Courses */}
           <div>
