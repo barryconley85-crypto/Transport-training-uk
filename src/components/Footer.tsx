@@ -7,21 +7,44 @@ export default function Footer() {
       <div className="container">
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '2.5rem', paddingBottom: '3rem', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
           {/* Brand */}
-          <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-  <img
-    src="/assets/3BED2C2A-5C06-4C0F-9D88-46487B48CE16.png"
-    alt="Transport Training UK"
+<div>
+  <div
     style={{
-      height: '50px',
-      width: 'auto',
-      display: 'block'
+      display: 'flex',
+      alignItems: 'center',
+      gap: '0.75rem',
+      marginBottom: '1rem'
     }}
-  />
-</div>
-                <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, color: 'white', fontSize: '1rem' }}>Transport Training UK</div>
-              </div>
-            </div>
+  >
+    <img
+      src="/assets/3BED2C2A-5C06-4C0F-9D88-46487B48CE16.png"
+      alt="Transport Training UK"
+      style={{
+        height: '50px',
+        width: 'auto',
+        display: 'block'
+      }}
+    />
+
+    <div>
+      <div
+        style={{
+          fontFamily: 'Montserrat, sans-serif',
+          fontWeight: 800,
+          color: 'white',
+          fontSize: '1rem'
+        }}
+      >
+        Transport Training UK
+      </div>
+    </div>
+  </div>
+
+  <p style={{ fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '1.25rem' }}>
+    The UK's specialist provider of passenger transport accessibility, safety and compliance training. Helping operators stay compliant, reduce liability and improve driver confidence.
+  </p>
+
+  <div style={{ display: 'flex', gap: '0.5rem' }}>
             <p style={{ fontSize: '0.875rem', lineHeight: 1.7, marginBottom: '1.25rem' }}>
               The UK's specialist provider of passenger transport accessibility, safety and compliance training. Helping operators stay compliant, reduce liability and improve driver confidence.
             </p>
