@@ -39,15 +39,15 @@ export default function Navbar() {
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: '72px' }}>
         {/* Logo */}
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', textDecoration: 'none' }}>
-          <div style={{
-            width: 42, height: 42, background: 'var(--blue)', borderRadius: 8,
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
-            fontFamily: 'Montserrat, sans-serif', fontWeight: 800, color: 'white', fontSize: '1.1rem'
-          }}>TT</div>
-          <div>
-            <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 800, color: 'white', fontSize: '1.05rem', lineHeight: 1.1 }}>Transport</div>
-            <div style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: 600, color: 'var(--blue-light)', fontSize: '0.75rem', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Training UK</div>
-          </div>
+          <<img
+  src="/assets/3BED2C2A-5C06-4C0F-9D88-46487B48CE16.png"
+  alt="Transport Training UK"
+  style={{
+    height: '50px',
+    width: 'auto',
+    display: 'block'
+  }}
+/>
         </Link>
 
         {/* Desktop Nav */}
